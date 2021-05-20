@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23c56810-3f02-44e2-8882-e47e89b7f804" name="Default Changelist" comment="" />
+    <list default="true" id="326b1cc5-62ba-4ada-8347-6613b7f4876f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/CustomMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CustomMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/BombCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/BombCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/EmptyCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/EmptyCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Minesweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/NeighborOfBombCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/NeighborOfBombCell.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="first-completed-draft" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,13 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,5 +95,8 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

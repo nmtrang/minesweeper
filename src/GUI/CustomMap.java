@@ -1,5 +1,7 @@
 package GUI;
+
 import javax.swing.JOptionPane;
+
 import minesweeper.Minesweeper;
 
 public class CustomMap extends javax.swing.JFrame {
@@ -7,6 +9,7 @@ public class CustomMap extends javax.swing.JFrame {
      * Creates new form CustomMap
      */
     private final Minesweeper cMinesweeper;
+
     public CustomMap(Minesweeper iMinesweeper) {
         this.cMinesweeper = iMinesweeper;
         initComponents();
@@ -56,7 +59,7 @@ public class CustomMap extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
 //        dispose();
-        try{
+        try {
             Object eventSource = evt.getSource();
             String input = "0";
             input = Grid_TextField.getText();
@@ -64,23 +67,19 @@ public class CustomMap extends javax.swing.JFrame {
             String input2 = "0";
             input2 = Mines_TextField.getText();
             int bomnum = Integer.parseInt(input2);
-            if(size < 6 && bomnum == 0){
+            if (size < 6 && bomnum == 0) {
                 JOptionPane.showMessageDialog(rootPane, "Cannot set size lower than 6 & bom is zero. Input Again");
-            }
-            else if(size < 6){
+            } else if (size < 6) {
                 JOptionPane.showMessageDialog(rootPane, "Cannot set size lower than 6. Input Again");
-            }
-            else if(bomnum == 0){
+            } else if (bomnum == 0) {
                 JOptionPane.showMessageDialog(rootPane, "Cannot set bom zero. Input Again");
-            }
-            else{
+            } else {
                 JOptionPane.showMessageDialog(rootPane, "Sucessful");
-                cMinesweeper.proceed(size,bomnum);
+                cMinesweeper.proceed(size, bomnum);
                 dispose();
 
             }
-        }
-        catch(NumberFormatException var7){
+        } catch (NumberFormatException var7) {
             JOptionPane.showMessageDialog(rootPane, "Enter a valid integer!", "Invalid Input", 0);
         }
 

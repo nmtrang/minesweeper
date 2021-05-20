@@ -1,5 +1,4 @@
 package GUI;
-import javax.swing.*;
 
 import minesweeper.Minesweeper;
 
@@ -7,6 +6,7 @@ public class Input extends javax.swing.JFrame {
     private final Minesweeper iMinesweeper;
     private int size = 0;
     private int bom = 0;
+
     /**
      * Creates new form Input
      */
@@ -93,11 +93,13 @@ public class Input extends javax.swing.JFrame {
         custommap.setVisible(true);
         dispose();
     }
+
     public void main(Input input) {
         this.setVisible(true);
     }
-    public void set(){
-        iMinesweeper.proceed(size,bom);
+
+    public void set() {
+        iMinesweeper.proceed(size, bom);
         dispose();
     }
 
