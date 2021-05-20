@@ -3,7 +3,6 @@ package minesweeper;
 import java.awt.*;
 import java.io.IOException;
 import GUI.Input;
-import GUI.CustomMap;
 
 public class Minesweeper {
     private static Minesweeper minesweeper;
