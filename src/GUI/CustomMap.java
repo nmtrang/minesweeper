@@ -34,7 +34,7 @@ public class CustomMap extends javax.swing.JFrame {
         getContentPane().add(Grid_TextField);
         Grid_TextField.setBounds(180, 130, 55, 19);
 
-        Button_Okay.setIcon(new javax.swing.ImageIcon("src/resources/img/Okay.jpg")); // NOI18N
+        Button_Okay.setIcon(new javax.swing.ImageIcon("resources/img/Okay.jpg")); // NOI18N
         Button_Okay.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -46,7 +46,7 @@ public class CustomMap extends javax.swing.JFrame {
         getContentPane().add(Mines_TextField);
         Mines_TextField.setBounds(180, 170, 55, 19);
 
-        Custom_Background.setIcon(new javax.swing.ImageIcon("src/resources/img/Background/Final_Custom_BG.jpg")); // NOI18N
+        Custom_Background.setIcon(new javax.swing.ImageIcon("resources/img/Background/Final_Custom_BG.jpg")); // NOI18N
         getContentPane().add(Custom_Background);
         Custom_Background.setBounds(0, 0, 300, 300);
 

@@ -37,7 +37,7 @@ public class Input extends javax.swing.JFrame {
         setPreferredSize(new java.awt.Dimension(600, 600));
         getContentPane().setLayout(null);
 
-        Button_16x16.setIcon(new javax.swing.ImageIcon("src/resources/img/16x16.jpg")); // NOI18N
+        Button_16x16.setIcon(new javax.swing.ImageIcon("resources/img/16x16.jpg")); // NOI18N
         Button_16x16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Button_16x16ActionPerformed(evt);
@@ -46,7 +46,7 @@ public class Input extends javax.swing.JFrame {
         getContentPane().add(Button_16x16);
         Button_16x16.setBounds(30, 321, 220, 70);
 
-        Button_8x8.setIcon(new javax.swing.ImageIcon("src/resources/img/8x8.jpg")); // NOI18N
+        Button_8x8.setIcon(new javax.swing.ImageIcon("resources/img/8x8.jpg")); // NOI18N
         Button_8x8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Button_8x8ActionPerformed(evt);
@@ -55,7 +55,7 @@ public class Input extends javax.swing.JFrame {
         getContentPane().add(Button_8x8);
         Button_8x8.setBounds(350, 321, 220, 70);
 
-        Button_Custom.setIcon(new javax.swing.ImageIcon("src/resources/img/Custom.jpg")); // NOI18N
+        Button_Custom.setIcon(new javax.swing.ImageIcon("resources/img/Custom.jpg")); // NOI18N
         Button_Custom.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Button_CustomActionPerformed(evt);
@@ -64,7 +64,7 @@ public class Input extends javax.swing.JFrame {
         getContentPane().add(Button_Custom);
         Button_Custom.setBounds(190, 450, 220, 70);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("src/resources/img/Background/Final_BG.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("resources/img/Background/Final_BG.jpg")); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 0, 600, 600);
 

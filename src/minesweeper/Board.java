@@ -128,15 +128,15 @@ public class Board extends JPanel implements ActionListener {
 
         //Put all relevant images in the map, some images named with integers, others named with descriptors
         for (int i = 1; i < 9; i++) {
-            String path = "src/resources/" + i + ".png";
+            String path = "resources/" + i + ".png";
             images.put(Integer.toString(i), (new ImageIcon(path)).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
         }
 
-        images.put("Bomb", (new ImageIcon("src/resources/Bomb.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
-        images.put("Covered", (new ImageIcon("src/resources/Covered.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
-        images.put("Empty", (new ImageIcon("src/resources/Empty.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
-        images.put("Marked", (new ImageIcon("src/resources/Marked.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
-        images.put("Wrongmarked", (new ImageIcon("src/resources/Wrongmarked.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
+        images.put("Bomb", (new ImageIcon("resources/Bomb.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
+        images.put("Covered", (new ImageIcon("resources/Covered.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
+        images.put("Empty", (new ImageIcon("resources/Empty.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
+        images.put("Marked", (new ImageIcon("resources/Marked.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
+        images.put("Wrongmarked", (new ImageIcon("resources/Wrongmarked.png")).getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
 
         addMouseListener(new MinesAdapter());
         newGame();

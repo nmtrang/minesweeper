@@ -1,12 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MS5:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="326b1cc5-62ba-4ada-8347-6613b7f4876f" name="Default Changelist" comment="added production files">
+    <list default="true" id="326b1cc5-62ba-4ada-8347-6613b7f4876f" name="Default Changelist" comment="fixed image scale">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MS5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MS5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MS5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/GUI/CustomMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/GUI/CustomMap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/GUI/CustomMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/GUI/CustomMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/GUI/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/GUI/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/minesweeper/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/minesweeper/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/minesweeper/ImageName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/minesweeper/ImageName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/minesweeper/Minesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/minesweeper/Minesweeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Covered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Marked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Wrongmarked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/16x16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/8x8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Background/Background1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Background/Custom_BG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Background/Final_BG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Background/Final_Custom_BG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Custom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Muoi.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Okay.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/CustomMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CustomMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minesweeper/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minesweeper/ImageName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/ImageName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minesweeper/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Minesweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Covered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Marked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Wrongmarked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/16x16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/8x8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/Background/Background1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/Background/Custom_BG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/Background/Final_BG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/Background/Final_Custom_BG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/Custom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/Muoi.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/Okay.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +77,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/minesweeper/NeighborOfBombCell.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/minesweeper/Minesweeper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/minesweeper/Game.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/minesweeper/EmptyCell.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/minesweeper/BombCell.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/GUI/Input.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/minesweeper/ImageName.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/GUI/CustomMap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/minesweeper/Cell.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/minesweeper/Board.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -29,6 +97,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1smze3oLBRE3Z3nlf6ObCziMIsI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,10 +107,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../smart-health-prediction-database/SmartHealthPrediction" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.1540848" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -54,17 +126,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,7 +149,8 @@
       <workItem from="1621507634618" duration="3667000" />
       <workItem from="1621670994944" duration="886000" />
       <workItem from="1621865532882" duration="1378000" />
-      <workItem from="1622637072754" duration="1753000" />
+      <workItem from="1622637072754" duration="2013000" />
+      <workItem from="1622640921191" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="improved clean code">
       <created>1621500607370</created>
@@ -104,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621500794029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed image scale">
+      <created>1622640803156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622640803156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="improved clean code" />
     <MESSAGE value="added production files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added production files" />
+    <MESSAGE value="fixed image scale" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed image scale" />
   </component>
 </project>
