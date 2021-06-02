@@ -2,9 +2,9 @@ package minesweeper;
 
 public class Cell {
 
-    protected boolean isCovered = true;//default
+    protected boolean isCovered = true;
     protected CellType cellType = CellType.Empty;
-    protected boolean isMarked = false;//default
+    protected boolean isMarked = false;
 
 
     public Cell() {

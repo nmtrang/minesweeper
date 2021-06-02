@@ -16,7 +16,6 @@ public class Minesweeper {
     }
 
     public void proceed(int size, int bom) {
-//        System.out.println("This is size: " + size + " | This is bom: "+ bom);
         this.running(size, bom);
     }
 

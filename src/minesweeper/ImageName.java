@@ -1,4 +1,3 @@
-
 package minesweeper;
 
 public enum ImageName {

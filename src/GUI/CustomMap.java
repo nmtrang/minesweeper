@@ -1,7 +1,6 @@
 package GUI;
 
 import javax.swing.JOptionPane;
-
 import minesweeper.Minesweeper;
 
 public class CustomMap extends javax.swing.JFrame {

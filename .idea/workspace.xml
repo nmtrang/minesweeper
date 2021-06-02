@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="326b1cc5-62ba-4ada-8347-6613b7f4876f" name="Default Changelist" comment="added production files" />
+    <list default="true" id="326b1cc5-62ba-4ada-8347-6613b7f4876f" name="Default Changelist" comment="added production files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/CustomMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CustomMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/ImageName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/ImageName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minesweeper/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Minesweeper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +38,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../smart-health-prediction-database/SmartHealthPrediction" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1540848" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
     <configuration name="Minesweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -51,15 +58,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,12 +78,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23c56810-3f02-44e2-8882-e47e89b7f804" name="Default Changelist" comment="" />
+      <changelist id="326b1cc5-62ba-4ada-8347-6613b7f4876f" name="Default Changelist" comment="added production files" />
       <created>1621492648696</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621492648696</updated>
       <workItem from="1621492651643" duration="87000" />
+      <workItem from="1621501993857" duration="520000" />
+      <workItem from="1621507634618" duration="3667000" />
+      <workItem from="1621670994944" duration="886000" />
+      <workItem from="1621865532882" duration="1378000" />
+      <workItem from="1622637072754" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="improved clean code">
       <created>1621500607370</created>
