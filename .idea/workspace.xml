@@ -2,67 +2,27 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="MS5:jar" />
+      <artifact name="Minesweeper:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326b1cc5-62ba-4ada-8347-6613b7f4876f" name="Default Changelist" comment="fixed image scale">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MS5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MS5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MS5.iml" afterDir="false" />
+    <list default="true" id="326b1cc5-62ba-4ada-8347-6613b7f4876f" name="Default Changelist" comment="Fully re-created images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/GUI/CustomMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/GUI/CustomMap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/GUI/CustomMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/GUI/CustomMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/GUI/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/GUI/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/minesweeper/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/minesweeper/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/minesweeper/ImageName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/minesweeper/ImageName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/minesweeper/Minesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/minesweeper/Minesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Covered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Empty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Marked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/Wrongmarked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/16x16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/8x8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Background/Background1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Background/Custom_BG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Background/Final_BG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Background/Final_Custom_BG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Custom.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Muoi.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MS5/resources/img/Okay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/CustomMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CustomMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minesweeper/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minesweeper/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/Bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/Covered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/Empty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/Marked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/Wrongmarked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/16x16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/8x8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/Background/Background1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/Background/Custom_BG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/Background/Final_BG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/Background/Final_Custom_BG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/Custom.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/Muoi.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/Okay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MS5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/Bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/Bomb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/Covered.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/Covered.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/Empty.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/Empty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/Marked.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/Marked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MS5/Wrongmarked.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MS5/Wrongmarked.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +110,9 @@
       <workItem from="1621670994944" duration="886000" />
       <workItem from="1621865532882" duration="1378000" />
       <workItem from="1622637072754" duration="2013000" />
-      <workItem from="1622640921191" duration="1073000" />
+      <workItem from="1622640921191" duration="1260000" />
+      <workItem from="1622730804654" duration="25000" />
+      <workItem from="1622971037763" duration="2415000" />
     </task>
     <task id="LOCAL-00001" summary="improved clean code">
       <created>1621500607370</created>
@@ -173,7 +135,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622640803156</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed resources path and added JAR">
+      <created>1622642059064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622642059065</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed resources path and added JAR">
+      <created>1622642110653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622642110653</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fully re-created images">
+      <created>1622974250148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622974250148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +178,8 @@
     <MESSAGE value="improved clean code" />
     <MESSAGE value="added production files" />
     <MESSAGE value="fixed image scale" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed image scale" />
+    <MESSAGE value="fixed resources path and added JAR" />
+    <MESSAGE value="Fully re-created images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully re-created images" />
   </component>
 </project>
