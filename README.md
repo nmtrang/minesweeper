@@ -31,7 +31,7 @@ java -jar Minesweeper.jar
 So, how did we design and organize classes?
 Depending on every objects in the game, we extracted the most essential elements in the game and packaged them into these classes:
 
-###Game.java
+### Game.java
 This is the entry point and UI design of the game
 It is built with the layout of the Java Swing
 It handles basic user input, specifically, clicking
@@ -55,7 +55,7 @@ How is this EmptyCell initiated? It has 2 ways of creation:
 - When the player starts to play the game, some cells will be covered by some sort of numbers or flagged, some other cells will be left as remaining empty cells.
 
 
-###Board.java
+### Board.java
 
 - Combines every different small classes into one big view and is used as a main controller.
 
