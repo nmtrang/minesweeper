@@ -49,7 +49,7 @@ public class Board extends JPanel implements ActionListener {
     public Board(JLabel statusbar, JButton bUndo, int size, int mines) throws IOException {
         this.n_size = size;
         this.n_mines = mines;
-        BoardSize = n_size * CELL_SIZE + 1;
+        BoardSize = n_size * CELL_SIZE + 2;
         System.out.println("n_size: " + n_size + " | n_mines: " + n_mines);
         this.statusbar = statusbar;
         this.bUndo = bUndo;
@@ -79,8 +79,8 @@ public class Board extends JPanel implements ActionListener {
             Cell cell = gameBoard[i / n_size][i % n_size];
 
             //Handle flagged cells situation, which are covered 
-            if (cell.isCoveredCell()) {
-                cell.changeWhetherMarked();
+            if (cell.isCoveredCell()) { // if cell is covered
+                cell.changeWhetherMarked(); //
                 if (cell.isMarkedCell()) {
                     minesLeft--;
                 } else {
@@ -89,11 +89,9 @@ public class Board extends JPanel implements ActionListener {
                         inGame = true;
                     }
                 }
-            } else if (cell.getCellType() == CellType.Bomb) {
-                cell.isCovered = true;
-                inGame = true;
+            }
 
-            } else if (cell.getCellType() == CellType.BombNeighbor) {
+            else if (cell.getCellType() == CellType.BombNeighbor) {
                 cell.isCovered = true;
             }
 
@@ -101,12 +99,12 @@ public class Board extends JPanel implements ActionListener {
             this.statusbar.setText("Flags Left: " + msg);
 
             //Takes care of empty cell situation 
-            if (cell.getCellType() == CellType.Empty) {
-                cell.isCovered = true;
-                while (!gameSteps.empty()) {
-                    int j = (Integer) gameSteps.pop();
-                    Cell cellNext = gameBoard[j / n_size][j % n_size];
-                    if (cellNext.getCellType().equals(CellType.BombNeighbor)) {
+            if (cell.getCellType() == CellType.Empty) { // if a cell is of Empty type
+                cell.isCovered = true; // turn that cell back to its covered state
+                while (!gameSteps.empty()) { // during gameSteps is being processed
+                    int j = (Integer) gameSteps.pop(); // store its position inside new integer
+                    Cell cellNext = gameBoard[j / n_size][j % n_size]; // load the position
+                    if (cellNext.getCellType().equals(CellType.BombNeighbor)) { //
                         gameSteps.push(j);
                         break;
                     } else {
@@ -206,20 +204,16 @@ public class Board extends JPanel implements ActionListener {
     //checks this for all neighbors
     public void find_empty_cells(int x, int y) {
 
-        //int current_col = j % N_COLS;
         gameBoard[x][y].flipUp();
-        gameSteps.push(x * n_size + y);//add steps to gameSteps Stack
+        gameSteps.push(x * n_size + y); //add steps to gameSteps Stack
         for (int dx = -1; dx <= 1; dx++) {
-            for (int dy = -1; dy <= 1; dy++) {//set bounds
+            for (int dy = -1; dy <= 1; dy++) { //set bounds
                 if ((dx != 0 || dy != 0) && x + dx < n_size && y + dy < n_size
                         && x + dx >= 0 && y + dy >= 0) {
 
                     CellType typeOfCell = gameBoard[x + dx][y + dy].getCellType();
-                    //if(typeOfCell == CellType.BombNeighbor && gameBoard[x + dx][y + dy].isCoveredCell()) {
-                    //    gameBoard[x + dx][y + dy].flipUp();
-                    //}
-                    //else
-                    if (typeOfCell == CellType.Empty && gameBoard[x + dx][y + dy].isCoveredCell()) {
+
+                    if (typeOfCell == CellType.Empty && gameBoard[x + dx][y + dy].isCoveredCell() && !gameBoard[x + dx][y + dy].isMarkedCell()) {
                         find_empty_cells(x + dx, y + dy);
                     }
                 }

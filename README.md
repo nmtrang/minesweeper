@@ -9,7 +9,7 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 
 ## Tools used
 
-Language: Java
+Language: Java 15
 
 Code editor: IntelliJ IDEA
 
@@ -19,7 +19,7 @@ Code editor: IntelliJ IDEA
 The game can be run in 3 ways
 
 1. Clone the project and open it in your code editor in order to run the Minesweeper file which is the main file
-2. Double-click Minesweeper.jar file
+2. Double-click Minesweeper.jar file (make sure your Java is of version 15)
 3. Navigate to the folder contains Minesweeper.jar file and run this command line
 
 ```bash

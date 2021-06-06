@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>minesweeper</OriginalElement>
+  <nodes>
+    <node x="862.0" y="650.0">minesweeper.ImageName</node>
+    <node x="544.0" y="352.0">minesweeper.BombCell</node>
+    <node x="353.0" y="650.0">minesweeper.Game</node>
+    <node x="0.0" y="1040.0">minesweeper.Minesweeper</node>
+    <node x="545.0" y="650.0">GUI.CustomMap</node>
+    <node x="0.0" y="0.0">minesweeper.Board</node>
+    <node x="738.0" y="352.0">minesweeper.EmptyCell</node>
+    <node x="0.0" y="650.0">GUI.Input</node>
+    <node x="232.0" y="1040.0">minesweeper.CellType</node>
+    <node x="4.0" y="526.0">minesweeper.Board.MinesAdapter</node>
+    <node x="530.5" y="0.0">minesweeper.Cell</node>
+    <node x="270.99999999999994" y="329.0">minesweeper.NeighborOfBombCell</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="minesweeper.Board.MinesAdapter" target="minesweeper.Board" relationship="INNER_CLASS">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="238.0" />
+    </edge>
+    <edge source="minesweeper.BombCell" target="minesweeper.Cell" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="139.5" />
+    </edge>
+    <edge source="minesweeper.EmptyCell" target="minesweeper.Cell" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="826.0" y="304.0" />
+      <point x="631.0" y="304.0" />
+      <point x="0.0" y="139.5" />
+    </edge>
+    <edge source="minesweeper.NeighborOfBombCell" target="minesweeper.Cell" relationship="GENERALIZATION">
+      <point x="0.0" y="-84.5" />
+      <point x="397.49999999999994" y="304.0" />
+      <point x="631.0" y="304.0" />
+      <point x="0.0" y="139.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8407166123778502" showDependencies="false" x="527.5" y="384.9012010848508" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
